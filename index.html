@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Explainable Forensics of Manipulated Segments in Untrimmed Long Videos">
+  <meta name="keywords" content="TASLE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TASLE Benchmark</title>
+
+	<meta property="og:title" content="Explainable Forensics of Manipulated Segments in Untrimmed Long Videos" />
+	<meta property="og:description" content="TASLE Benchmark" />
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VFNFH9CKNX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-VFNFH9CKNX');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <!-- <script src="./static/js/index.js"></script> -->
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+
+      <br>
+
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-3 publication-title" style="font-size: 2.2rem;"> Explainable Forensics of Manipulated Segments in Untrimmed Long Videos</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Yue Feng<sup>1*</sup>,&nbsp;</span>
+            <span class="author-block">Jingjing Li<sup>2*</sup>,&nbsp;</span>
+            <span class="author-block">Qijia Lu<sup>1*</sup>,&nbsp;</span>
+            <span class="author-block">Wei Ji<sup>3‡*</sup>,&nbsp;</span>
+            <span class="author-block">Jingrou Zhang<sup>1</sup>,&nbsp;</span>
+            <span class="author-block">Fei Shen<sup>4</sup>,&nbsp;</span>
+            <span class="author-block">Xiao Li<sup>1</sup>,&nbsp;</span>
+            <span class="author-block">Yizhen Jia<sup>1</sup>,&nbsp;</span>
+            <span class="author-block">Qiang Chen<sup>5‡</sup>,&nbsp;</span>
+            <span class="author-block">Limin Wang<sup>6</sup>,&nbsp;</span>
+            <span class="author-block">Wentong Li<sup>1†</sup>,&nbsp;</span>
+            <span class="author-block">Jie Qin<sup>1†</sup></span>
+          </div>
+
+          <div class="is-size-6 publication-authors" style="margin-top:0.6em; color:#555;">
+            <span class="author-block"><sup>*</sup>Equal Contribution&nbsp;&nbsp;</span>
+            <span class="author-block"><sup>†</sup>Corresponding Author&nbsp;&nbsp;</span>
+            <span class="author-block"><sup>‡</sup>Project Lead</span>
+          </div>
+
+          <div class="is-size-6 publication-authors" style="margin-top:0.5em;">
+            <span class="author-block"><sup>1</sup>MoE Key Laboratory of Brain-Machine Intelligence Technology, College of Artificial Intelligence, Nanjing University of Aeronautics and Astronautics&nbsp;&nbsp;</span>
+            <span class="author-block"><sup>2</sup>University of Alberta&nbsp;&nbsp;</span>
+            <span class="author-block"><sup>3</sup>Yale University&nbsp;&nbsp;</span>
+            <span class="author-block"><sup>4</sup>National University of Singapore&nbsp;&nbsp;</span>
+            <span class="author-block"><sup>5</sup>Independent Researcher&nbsp;&nbsp;</span>
+            <span class="author-block"><sup>6</sup>Nanjing University</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+             The rapid advancement of AI-driven video generation has transformed content creation, while simultaneously increasing the risk of misinformation through localized manipulations in long-form videos. Existing video forensic methods predominantly operate on short, independent clips, and thus fail to capture realistic scenarios where AI-generated content is sparsely embedded within otherwise authentic footage. To bridge this gap, we formulate the task of Temporal AI-Generated Segment Localization and Explanation, which targets authenticity detection, temporal localization, and interpretable analysis of manipulated segments in untrimmed long videos. We further introduce TASLE, a large-scale benchmark comprising 12,472 untrimmed videos with diverse manipulation patterns and rich annotation signals, including temporal boundaries, authenticity labels, and segment-level rationales. In addition, we propose MSLoc, a coarse-to-fine forensic baseline that combines a boundary-sensitive proposal generation module for efficient long-video scanning with an MLLM-based refinement module for precise boundary localization and interpretable reasoning. Experiments validate the effectiveness of the proposed baseline, highlighting the importance of segment-level explainable forensics for long-form AI-generated video analysis. Dataset and code will be made publicly available.
+            </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+ 
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width has-text-centered">
+        <h2 class="title is-3">Video Demos</h2>
+
+        <!-- Video 1 -->
+        <h2 class="title is-5">Task Definition</h2>
+        <div class="content has-text-justified">
+          <p>
+            Illustration of the TASLE task, focusing on localizing sparsely embedded AI-generated segments within long untrimmed videos.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <video id="video1" autoplay controls muted preload loop playsinline style="max-width: 85%; display: block; margin: auto;">
+            <source src="resources/video1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <br>
+
+
+
+        <!-- Video 3 -->
+        <h2 class="title is-5">Dataset Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            In the following video demo, we showcase some examples from the TASLE dataset.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <video id="video3" autoplay controls muted preload loop playsinline style="max-width: 95%; display: block; margin: auto;">
+            <source src="resources/video3.mp4" type="video/mp4">
+          </video>
+        </div>
+        <br>
+
+        <!-- Video 4 -->
+        <h2 class="title is-5">Annotation Examples</h2>
+        <div class="content has-text-justified">
+          <p>
+             Visual examples of TASLE annotations, illustrating authenticity labels, temporal boundaries, and multi-level rationales.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <video id="video4" autoplay controls muted preload loop playsinline style="width:95%; height:auto; display: block; margin: auto;">
+            <source src="resources/video4.mp4" type="video/mp4">
+          </video>
+        </div>
+        <br>
+
+
+        <!-- Video 2 -->
+        <h2 class="title is-5">Proposed Framework</h2>
+        <div class="content has-text-justified">
+          <p>
+            Overview of MSLoc. The proposed coarse-to-fine framework integrates boundary-sensitive proposal generation with MLLM-based refinement to achieve precise localization and explanation.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <video id="video2" autoplay controls muted preload loop playsinline style="max-width: 65%; display: block; margin: auto;">
+            <source src="resources/video2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <br>
+        
+
+        <!-- Video 5 -->
+        <h2 class="title is-5">Qualitative Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            Qualitative comparison of MSLoc with other models, highlighting its ability to accurately detect authenticity and provide interpretable analysis in complex scenes.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <video id="video5" autoplay controls muted preload loop playsinline style="width:100%; height:auto; display: block; margin: auto;">
+            <source src="resources/video5.mp4" type="video/mp4">
+          </video>
+        </div>
+
+		  
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{feng2026tasle,
+  title={Explainable Forensics of Manipulated Segments in Untrimmed Long Videos},
+  author={Feng, Yue and Li, Jingjing and Lu, Qijia and Ji, Wei and Zhang, Jingrou and Shen, Fei and Li, Xiao and Jia, Yizhen and Chen, Qiang and Wang, Limin and Li, Wentong and Qin, Jie},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
+  year={2026}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+This project website is adapted from <a
+            href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
