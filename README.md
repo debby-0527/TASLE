@@ -1,5 +1,6 @@
 # TASLE
 
-The website is **fully anonymous** and does not reveal the authors’ identities or institutional affiliations in any way.
+Project website for **Explainable Forensics of Manipulated Segments in Untrimmed Long Videos**.
 
-This work is under review.
+- [TASLE dataset and released checkpoints](https://www.modelscope.cn/datasets/L67plus/TASLE)
+- [MSLoc source code](https://github.com/67Pluuus/MSLoc)
